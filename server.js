@@ -1,9 +1,6 @@
 const express = require('express')
 const app = express() //Wherever you see 'app', you'll know you're using Express
-const cors = require('cors')
 const PORT = 8000
-
-app.use(cors())
 
 const rappers = {
     '21 savage':{
