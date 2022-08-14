@@ -36,7 +36,7 @@ app.get('/api/:rapperName', (request, response) => {
     //[] Bracket Notation allows you to deal with spaces in the name
         response.json(rappers[rappersName])
     } else {
-        response.json(rappers['dylan'])
+        response.json(rappers['unknown'])
     }
     // response.json(rappers)
 })
